@@ -1,6 +1,5 @@
-package 排序;
+package 排序问题;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /*

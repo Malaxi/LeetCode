@@ -1,4 +1,4 @@
-package 排序;
+package 排序问题;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -36,6 +36,13 @@ public class 数据流中的中位数 {
     }
     public double findMedian() {
         return minHeap.size() != maxHeap.size() ? minHeap.peek() : (minHeap.peek() + maxHeap.peek()) / 2.0;
+    }
+
+    public static void main(String[] args) {
+        //Scanner scanner = new Scanner(System.in);
+        //String s = scanner.nextLine();
+        //System.out.println(s);
+        System.out.println(Math.pow(2, 3));
     }
 
 }
